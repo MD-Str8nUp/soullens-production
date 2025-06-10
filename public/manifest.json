@@ -1,0 +1,143 @@
+{
+  "name": "SoulLens AI - Personal Growth Companion",
+  "short_name": "SoulLens AI",
+  "description": "Your personal AI companion for self-discovery, growth, and meaningful conversations",
+  "version": "1.0.0",
+  "start_url": "/mobile",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["lifestyle", "health", "education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Start Chat",
+      "short_name": "Chat",
+      "description": "Begin a conversation with your AI companion",
+      "url": "/chat",
+      "icons": [
+        {
+          "src": "/images/app_icon.jpg",
+          "sizes": "192x192",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Journal Entry",
+      "short_name": "Journal",
+      "description": "Create a new journal entry",
+      "url": "/journal",
+      "icons": [
+        {
+          "src": "/images/app_icon.jpg",
+          "sizes": "192x192",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "View Insights",
+      "short_name": "Insights",
+      "description": "Explore your personal insights",
+      "url": "/insights",
+      "icons": [
+        {
+          "src": "/images/app_icon.jpg",
+          "sizes": "192x192",
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "72x72",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "96x96",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "128x128",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "144x144",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "152x152",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "384x384",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app_icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/primary_logo_w_tagline.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "SoulLens AI Dashboard"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=ai.soullens.app",
+      "id": "ai.soullens.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/soullens-ai/id123456789",
+      "id": "123456789"
+    }
+  ],
+  "prefer_related_applications": false,
+  "features": [
+    "Cross Platform",
+    "Offline Support",
+    "Push Notifications",
+    "AI Chat",
+    "Personal Analytics",
+    "Data Export"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}

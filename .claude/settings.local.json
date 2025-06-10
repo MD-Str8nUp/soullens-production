@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run lint)",
+      "Bash(npm run typecheck:*)",
+      "Bash(node:*)",
+      "Bash(touch:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(sudo npm install:*)",
+      "Bash(npx supabase:*)",
+      "Bash(SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5obXdxbGRzaWRjeGZkdnZjZHN0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0OTAzMjM2MCwiZXhwIjoyMDY0NjA4MzYwfQ.nFQHROo81MzZl8xpHLf8dfW0zEqLR68ENlT-2109LT8 node deploy-production.js)",
+      "Bash(npm run build:*)",
+      "Bash(npx cap init:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "soullens-ai",
+  "version": "1.0.0",
+  "description": "SoulLens AI - See yourself clearly through intelligent questioning",
+  "type": "module",
+  "main": "src/ai-engine/soullens-ai-engine.js",
+  "scripts": {
+    "test": "node testing/test-runner.js",
+    "chat": "node testing/interactive-chat.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^7.3.1",
+    "@supabase/supabase-js": "^2.38.0",
+    "autoprefixer": "^10.4.14",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "file-type": "^18.7.0",
+    "formidable": "^3.5.1",
+    "lucide-react": "^0.263.1",
+    "mammoth": "^1.6.0",
+    "next": "^14.0.0",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.4.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stripe": "^18.2.1",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "ai",
+    "personal-development",
+    "self-awareness",
+    "coaching",
+    "claude"
+  ],
+  "author": "SoulLens Team",
+  "license": "MIT"
+}
